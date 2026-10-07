@@ -1,0 +1,29 @@
+sinf Arabic{
+    aam thabit farigh raeisi (nass [] args){
+        //Declare variables
+        ashari X1,Y1; 
+        sahih I,J,K;
+        
+        //Initialize values
+        X1=0;
+        Y1=10;
+        K=10;
+        J=-10;
+
+        karrir (I=1;I+10<=K;I=I-1){
+            talama (K+I<20){
+                 J=I;
+
+                 ifaal{
+                     idha (X1>Y1)
+                         J=J-2;
+                     wailla
+                         J=J/4;
+                     X1=X1*2.0;
+                 }
+                 talama (J>=20);
+                 K=K+3;
+            }
+        }
+   }
+}

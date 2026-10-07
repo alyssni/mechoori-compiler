@@ -1,0 +1,9 @@
+Step-by-Step of MechooRi Compiler.txt
+
+# Java compiled files
+*.class
+
+# BlueJ project files
+*.ctxt
+*.bluej
+package

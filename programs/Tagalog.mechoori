@@ -1,0 +1,29 @@
+klase Tagalog{
+    pampubliko static walang bisa pangunahing (string [] args){
+        //Declare variables
+        lumutang X1,Y1; 
+        int I,J,K;
+        
+        //Initialize values
+        X1=0;
+        Y1=10;
+        K=10;
+        J=-10;
+
+        para sa (I=1;I+10<=K;I=I-1){
+            habang (K+I<20){
+                 J=I;
+
+                 gawin{
+                     kung (X1>Y1)
+                         J=J-2;
+                     iba pa
+                         J=J/4;
+                     X1=X1*2.0;
+                 }
+                 habang (J>=20);
+                 K=K+3;
+            }
+        }
+   }
+}
